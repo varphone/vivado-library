@@ -1624,6 +1624,15 @@
     <xilinx:coreExtensions>
       <xilinx:supportedFamilies>
         <xilinx:family xilinx:lifeCycle="Production">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">artix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">kintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">kintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">spartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">aspartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">zynquplus</xilinx:family>
       </xilinx:supportedFamilies>
       <xilinx:taxonomies>
         <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
@@ -1634,8 +1643,8 @@
         <xilinx:xpmLibrary>XPM_CDC</xilinx:xpmLibrary>
         <xilinx:xpmLibrary>XPM_MEMORY</xilinx:xpmLibrary>
       </xilinx:xpmLibraries>
-      <xilinx:coreRevision>22</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2020-01-16T14:16:41Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>24</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2020-03-05T20:31:22Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@6bcfc864_ARCHIVE_LOCATION">c:/vivado_projects/ciprian_git_zmoddemo/repo/local/ip/axi_zmod_dac1411</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2a45d51d_ARCHIVE_LOCATION">c:/vivado_projects/ciprian_git_zmoddemo/repo/local/ip/axi_zmod_dac1411</xilinx:tag>
@@ -1955,6 +1964,30 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@4430c256_ARCHIVE_LOCATION">c:/Vivado_Projects/Eclypse/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@286a3b3f_ARCHIVE_LOCATION">c:/Vivado_Projects/Eclypse/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@50e18db_ARCHIVE_LOCATION">c:/Vivado_Projects/Eclypse/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ed9b653_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23cf0f8c_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bc5d2bf_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bad5820_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46073a7f_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ff8b973_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77889dd8_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59b6520c_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@309461e_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a2ba38b_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@bc9ee9c_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41508451_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48b7f84f_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c36f99f_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28fe278e_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57f46014_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3805b1a8_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@373bd9b3_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b9b7436_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c434d0c_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35694f27_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ff789bb_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78f9bb36_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@431b3c41_ARCHIVE_LOCATION">d:/Github/USB104A7-ZmodDAC/FPGA/repo/vivado-library/ip/Zmods/AXI_Zmod_DAC1411</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
