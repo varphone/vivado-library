@@ -442,7 +442,7 @@ begin
                 sCh1GainL <= '0';
                 sCh2GainH <= '0';
                 sCh2GainL <= '0';
-                if (SC2_AC_DC = '1') then --DC Coupling (Relay set)
+                if (SC2_AC_DC = '0') then --DC Coupling (Relay set)
                     sCh2CouplingH <= '1';
                     sCh2CouplingL <= '0';
                     sRelayComH <= '0';
