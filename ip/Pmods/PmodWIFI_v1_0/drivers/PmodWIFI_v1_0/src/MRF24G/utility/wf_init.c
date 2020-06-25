@@ -45,7 +45,24 @@
 #include "./ud_inc/shared/wf_universal_driver.h"
 #include "./ud_inc/internal/wf_global_includes.h"
 
-extern uint32_t SYSGetMilliSecond(void);
+#include "DEIPcK/utility/System.h"
+//extern uint32_t SYSGetMilliSecond(void);
+uint32_t tSYSTicksLastSeca = 0;
+uint32_t tSYSSeca = 0;
+
+u64 GetSysTick(){
+#ifdef XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ
+	XTime sysTime;
+	XTime_GetTime(&sysTime);
+#else
+u64 sysTime=WF_TimerReadr();
+#endif
+	return sysTime;
+}
+uint32_t SYSGetMilliSecond(void)
+{
+    return(((GetSysTick() - tSYSTicksLastSeca) / SYSTICKSPERMSEC) + (tSYSSeca * 1000));
+}
 
 //==============================================================================
 //                                  CONSTANTS

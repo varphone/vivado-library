@@ -46,7 +46,7 @@ extern "C" {
 // Compiler specific keyword used for inline functions.  Customize for your compiler.
 // If inline functions are not supported make the define empty.
 //------------------------------------------------------------------------------
-#if defined(__MICROBLAZE__)||defined(__arm__)
+#if defined(__MICROBLAZE__)||defined(__ZYNQ__)
 #define INLINE
 #else
 #define INLINE inline

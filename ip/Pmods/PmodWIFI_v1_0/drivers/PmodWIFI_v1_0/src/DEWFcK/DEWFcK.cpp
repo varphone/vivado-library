@@ -53,8 +53,8 @@
 /*	10/19/2011(KeithV): Created											*/
 /*																		*/
 /************************************************************************/
-#include <DEIPcK.h>
-#include <DEWFcK.h>
+#include <DEIPcK/DEIPcK.h>
+#include <DEWFcK/DEWFcK.h>
 
 DEWFcK::DEWFcK()
 {

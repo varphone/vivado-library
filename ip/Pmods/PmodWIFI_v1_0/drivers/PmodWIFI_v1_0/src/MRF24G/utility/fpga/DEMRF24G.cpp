@@ -51,9 +51,9 @@
 /*  10/16/2013 (KeithV): Created                                        */
 /*                                                                      */
 /************************************************************************/
-#include "../DEIPcK/utility/System.h"
-#include <DEIPcK.h>
-#include "MRF24GAdaptor.h"
+#include "DEIPcK/utility/System.h"
+#include <DEIPcK/DEIPcK.h>
+#include "MRF24G/MRF24GAdaptor.h"
 
 extern int WF_GPIO_BASEADDRESS;
 

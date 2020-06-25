@@ -51,8 +51,8 @@
 #ifndef MRF24G_AC
 #define MRF24G_AC
 
-#include <DEIPcK.h>
-#include <DEWFcK.h>
+#include <DEIPcK/DEIPcK.h>
+#include <DEWFcK/DEWFcK.h>
 
 #ifdef __cplusplus
 
